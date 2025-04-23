@@ -37,6 +37,7 @@ The goal of this project is to build machine learning models that can classify r
   df['goodquality'] = [1 if x >= 7 else 0 for x in df['quality']]
 
 ## 📈 Data Analysis & Visualization
+
 Countplots for features like quality, pH, alcohol, sulphates, etc.
 
 KDE Plot and Histogram for distribution analysis.
@@ -50,6 +51,7 @@ Pairplot to analyze bivariate distributions.
 Feature Importance from Random Forest to identify top contributing factors.
 
 ## 🤖 ML Techniques Used
+
 Trained and evaluated the following models:
 
 Model	Accuracy Score
@@ -61,6 +63,7 @@ Decision Tree	86.4%
 Gaussian Naive Bayes	83.3%
 
 ## 🧪 Training & Evaluation
+
 Train/Test Split: 70% training, 30% testing
 
 Metrics:
@@ -70,3 +73,11 @@ Accuracy Score
 Confusion Matrix
 
 Best Model: Random Forest Classifier
+
+## Conclusion
+
+Random Forest outperformed other models in predicting wine quality.
+
+Alcohol and volatile acidity were among the most important features.
+
+Visualizations and correlations help understand the dataset and guide feature selection.
