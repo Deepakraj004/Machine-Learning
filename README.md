@@ -81,3 +81,11 @@ Random Forest outperformed other models in predicting wine quality.
 Alcohol and volatile acidity were among the most important features.
 
 Visualizations and correlations help understand the dataset and guide feature selection.
+
+## Future Work
+
+Tune hyperparameters using GridSearchCV.
+
+Apply ensemble techniques (e.g., XGBoost, VotingClassifier).
+
+Deploy model using Flask or Streamlit for interactive predictions.
